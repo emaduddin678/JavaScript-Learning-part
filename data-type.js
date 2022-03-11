@@ -1,5 +1,5 @@
 // There are two types of data typeof.
-// Premitive data type
+// Primitive data type
 /*
 {
 number, string, boolean, null, undefined, 

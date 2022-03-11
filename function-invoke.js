@@ -17,3 +17,4 @@ function sub() {
 functionName()
 sum()
 sub()
+// console.log(sum())
