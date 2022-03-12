@@ -48,10 +48,44 @@ sumOfArray(arr2)
 sumOfArray(arr3)
 */
 
-function test(a,b,c){
-    console.log(arguments)
-    console.log(JSON.stringify(arguments))
-    console.log(typeof(a))
+// here a, b, c is paremeter
+// function test(a,b,c){
+//     console.log(arguments)
+//     console.log(JSON.stringify(arguments))
+//     console.log(typeof(a))
+// }
+
+// test()
+// test(5, 6, 8)
+
+// here 5, 6, 8 is arguments
+// So, arguments is not an array and not an Object
+// it is an array type data
+// if we don't use paremeter in function , and use arguments
+// then we the entry data will be an array type Object
+// that is called arguments
+function testArg( ){
+    for(var i = 0; i < arguments.length; i++){
+        console.log(arguments[i])
+    }
 }
 
-test()
+testArg(1,2,3,4,6,5)
+
+function sumArg(){
+    var sum = 0;
+    for (i = 0; i< arguments.length; i++){
+        sum += arguments[i]
+        
+    }
+    console.log(sum)
+    
+}
+
+sumArg(1,2,3,4,5)  
+var a = sumArg(1,23,4,5)
+
+// so we can't get the sum in variable
+console.log(a)
+// that's why console.log(a) is showing undefined
+// for that purpose we have to use return in function
