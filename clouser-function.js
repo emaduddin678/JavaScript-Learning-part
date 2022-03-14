@@ -5,4 +5,17 @@ function b() {
 }
 
 b()
-    // not completed
+
+function abc() {
+    var x = 4
+    return function() {
+        console.log(x)
+    }
+}
+
+var p = abc()
+console.log(p)
+console.dir(p)
+
+
+// not completed
