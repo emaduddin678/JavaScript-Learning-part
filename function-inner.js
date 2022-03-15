@@ -4,11 +4,11 @@
 //     }
 //     sayHi()
 // }
-function greetMe(greet, name){
-    console.log(greet, name)
+function greetMe(value, valid){
+    console.log(value, valid)
 }
 
-// greetMe('Hello', 'Emad Uddin')
+greetMe('Hello', 'Emad Uddin')
 
 // greeting first name 
 function greetMe2(greet2, name2){
@@ -42,7 +42,7 @@ function main(n){
 
 }
 
-main(15)
+main(15) 
 
 
 
