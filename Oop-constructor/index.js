@@ -9,3 +9,4 @@ var emad = {
 
 }
 console.log(emad.fullName())
+console.log('This is full Object'+ emad)
